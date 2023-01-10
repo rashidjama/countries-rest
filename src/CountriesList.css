@@ -1,0 +1,6 @@
+.Countries__Container {
+    margin: 3em auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
