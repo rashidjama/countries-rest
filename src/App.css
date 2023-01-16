@@ -1,0 +1,12 @@
+.search__filter {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2em auto;
+}
+
+@media (max-width: 600px) {
+    .search__filter {
+        flex-direction: column;
+    }
+}

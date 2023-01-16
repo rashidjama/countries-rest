@@ -8,7 +8,7 @@ import './CountryCard.css'
 const CountryCard = ({ name, flag, population, capital, region }) => {
   return (
     <div className='Card'>
-          <Card style={{boxShadow: '3px 2px 4px grey'}} sx={{ width: 320 }}>
+          <Card style={{boxShadow: '3px 2px 4px grey'}} sx={{ width: 260, height: 280 }}>
       <CardOverflow>
         <AspectRatio ratio="2">
           <img src={flag}alt=""

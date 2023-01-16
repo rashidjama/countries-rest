@@ -1,0 +1,11 @@
+.Nav {
+    width: 100%;
+    background-color: #fcfbfbb5;
+    box-shadow: 5px 5px 5px 0px gainsboro;
+}
+.Nav__items {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}

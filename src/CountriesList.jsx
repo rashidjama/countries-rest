@@ -4,9 +4,11 @@ import Countries__Container from './CountriesList.css'
 
 function CountriesList({ countries }) {
   return (
-    <div className='Countries__Container'>
-        {countries.map(country => {
+    <div className='countries__container'>
+        {countries.map((country, i) => {
+         
             return <CountryCard 
+                    key={i}
                     flag={country.flags.png}
                     name={country.name.common}
                     population={country.population}
